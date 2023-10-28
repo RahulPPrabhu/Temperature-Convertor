@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="temp">
+        <h1 class="text-center">Temparature Convertor</h1>
+        <label for="celsius" class="form-label">&deg;Celsius</label>
+        <input type="number" class="form-control form-control-lg" name="celsius" id="celsius" (input)="getCelsius()" [(ngModel)] = "cel">
+        <label for="fahrenheit" class="form-label">&deg;Fahrenheit</label>
+        <input type="number" class="form-control form-control-lg" name="fahrenheit" id="fahrenheit" (input)="getFahrenheit()" [(ngModel)] = "fah">
+    </div>
+</div>
