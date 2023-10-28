@@ -1,0 +1,11 @@
+.temp{
+    background-color: #1234;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
